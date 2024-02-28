@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/brunsojc-metal'         //do change this
         // Use Jenkins build number as part of the image tag
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/miamioh-brunsojc/metal.git'  //do change this
+        GITHUB_URL = 'https://github.com/brunsojc/brunsojc-lb.git'  //do change this
         
         KUBECONFIG = credentials('brunsojc-225')  //do change this
     }
